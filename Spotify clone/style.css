@@ -1,0 +1,316 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    background-color: black;    
+    display: flex;
+}
+
+.sectionA {
+    width: 24vw;
+    height: 100vh;
+}
+
+.sectionA1 {
+    height: 18vh;
+    color: white;
+    background-color: rgb(31, 30, 30);
+    margin: 7px 0px 0px 7px;
+    padding: 14px;
+    border-radius: 12px;
+}
+
+.sectionA1 ul li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+ul {
+    list-style: none;
+}
+
+.sectionA2 {
+    height: 70vh;
+    color: white;
+    background-color: rgb(31, 30, 30);
+    margin: 7px 0px 0px 7px;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+img {
+    margin: 7px;
+    filter: invert(1);
+}
+
+.library {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 8vh;
+}
+
+.lib1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    color: lavender;
+}
+
+.flow {
+    max-height: 24vh;
+    overflow-y: scroll;
+}
+
+.box {
+    background-color: rgb(59, 58, 58);
+    height: 18vh;
+    border-radius: 7px;
+    padding: 17px;
+    line-height: 30px;
+    margin: 18px 0px 20px;
+}
+
+.b1 {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.b2 {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.b3 {
+    font: 14px;
+    font-weight: 800;
+    padding: 8px 12px;
+    border-radius: 27px;
+    margin: 14px;
+    border: none;
+}
+
+/* Works on Firefox, Edge, and Chrome */
+
+/* width */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: transparent;
+    /* Make the track transparent */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(231, 228, 228);
+    /* Semi-transparent black color for the thumb */
+    border-radius: 6px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(236, 234, 234, 0.911);
+    /* Darker semi-transparent color on hover */
+}
+
+.faltu {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 17px;
+    padding: 14px;
+}
+
+.item {
+    font-size: 11px;
+    color: lavender;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.b {
+    background-color: rgb(31, 30, 30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 27px;
+    margin: 14px;
+    border: 0.4px solid white;
+}
+
+.bb {
+    color: white;
+    margin: 8px;
+}
+.sectionB{
+    margin: 7px;
+    border-radius: 24px;
+    width: 74vw;
+    overflow-y: scroll;
+    
+}
+nav{
+    background-color:rgb(20, 20, 20);
+    height: 10vh;
+    width: 73.3vw;
+    border-radius: 12px 12px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 00px; */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.p1{
+    margin-left: 10px;
+    gap: 700px;
+}
+.p2{
+    margin-right: 10px;
+}
+.content{
+
+   padding: 7px;
+    min-height: 90vh;
+    background-color:  rgb(31, 30, 30);
+}
+.b4{
+    background-color: rgb(20, 20, 20);
+    color: lavender;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    padding: 7px 10px;
+    border-radius: 20px;
+    border: 0px;
+    margin-right: 7px;
+
+}
+.b4:hover{
+  color: white;
+  font-weight: 500;
+}
+.b5{
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 13px 27px;
+    border-radius: 27px;
+    border: 0;
+}
+.b5:hover{
+   padding: 13.5px 27.5px;
+   font-size: 16.5px;
+}
+.des{
+    height: 40px;
+    background-color:  rgb(31, 30, 30);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 7px;
+}
+.titl{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 14px;
+}
+.show{
+    color: lavender;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin-right: 14px;
+}
+.cards{
+    /* background-color: red; */
+    height: 330px;
+    width: 250px;
+    border-radius: 7px;
+    position: relative;
+}
+.cards:hover{
+    background-color: rgb(37, 37, 37);
+    
+}
+.cards:hover .play{
+    opacity: 1;
+}
+.cardi{
+    filter: none;
+    width: 230px;
+    border-radius: 50%;
+}
+.t1{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 10px;
+    line-height: 1.7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.t2{
+    color: gray;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.carder{
+    display: flex;
+    /* width: 74vw; */
+}
+.play{
+    filter: none;
+    position: absolute;
+    top: 60%;
+    left: 70%;
+    fill: rgb(56, 230, 56);
+    transform: translate(-50%, -50%);
+    width: 70px; /* Adjust size as needed */
+    height: 70px; /* Adjust size as needed */
+    opacity: 0; /* Initially hide the play icon */
+    transition: opacity 0.3s ease; /* Add a smooth transition */
+  
+}
+.bar{
+    height: 50px;
+    background-color: white;
+    width: 72vw;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    position: absolute;
+    bottom: 40px;
+    right: 47px;
+}
+.bar img{
+    height: 27px;
+    filter: none;
+}
+.songlist{
+    padding: 12px;
+}
+.songlist li{
+ list-style-type: number;    
+}
