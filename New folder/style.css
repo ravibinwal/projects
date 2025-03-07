@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.bot2 {
+    z-index: 1;
+    position: absolute;
+    top: 80%;
+    left: 0%;
+    border-radius: 50%;
+}
+
+.containr {
+    display: flex;
+}
+
+.side {
+    width: 40vw;
+}
+
+.b1 {
+    width: 30vw;
+    background-color: #54647c;
+    color: white;
+    margin: 2vw 3vw;
+    height: 60vh;
+}
+
+.tex {
+    font-size: 40px;
+    background-color: #54647c;
+    color: white;
+    padding: 2vw;
+    text-align: center;
+}
+
+.desc {
+    background-color: white;
+    width: 22vw;
+    color: gray;
+    font-size: 16px;
+    line-height: 1.3;
+    margin: 2vw;
+    padding: 2vw;
+    max-height: 40vh;
+    overflow-y: scroll;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+
+}
+
+.chat-container {
+    width: 60vw;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.chat-box {
+    height: 80vh;
+    overflow-y: auto;
+}
+
+.chat-bubble {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    clear: both;
+    max-width: 80%;
+}
+
+.chat-bubble.bot {
+    float: left;
+    background-color: #d8d8d3;
+    color: black;
+}
+
+.chat-bubble.user {
+    float: right;
+    background-color: #007bff;
+    color: white;
+    margin-right: 20px;
+}
+
+.input-container {
+    display: flex;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.navbar {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    height: 5vh;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.filler {
+    font-size: 1rem;
+}
+
+.filler:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+body {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+
+.dark-theme body {
+    background-color: #343a40;
+    color: #fff;
+}

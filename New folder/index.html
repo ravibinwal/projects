@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Query Bot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">Chatbot</div>
+        
+        <div class="theme-toggle"><img src="night-mode.png" height="23px" style="filter: invert();" alt="theme" onclick="toggleTheme()""></div>
+    </div>
+    <img src="Graident Ai Robot.jpg" class="bot2" height="140px" alt="">
+<div class="containr">
+    <div class="side">
+         <div class="b1">
+            <div class="tex">
+                About chatbot
+            </div>
+            <div class="desc">The College Query Bot represents a pioneering solution in the realm of online college assistance. This innovative web-based chatbot serves as a beacon of support for students navigating the complex landscape of higher education. By harnessing the power of cutting-edge technologies, including HTML, CSS, and JavaScript, this project aims to revolutionize the way individuals access information about college programs, admissions procedures, and campus life.
+            </div>
+         </div>
+    </div>
+    <div class="chat-container">
+        <div class="chat-box" id="chat-box">
+            <div class="chat-bubble bot">Welcome to our College Chatbot! How can I assist you today?<br><br>
+                <button onclick="selectOption('what programs does the college offer ?')">Programs</button>
+                <button onclick="selectOption('how can i apply to the college?')">Apply</button>
+                <button onclick="selectOption('can i schedule a campus tour?')">Tour</button><br><br>
+                <button onclick="selectOption('what are the tuition fees?')">Fees</button>
+                <button onclick="selectOption('are there any scholarships available?')">Scholarship</button>
+                <button onclick="selectOption('how can i contact the admissions office?')">Contact</button><br><br>
+                <button onclick="selectOption('what extracurricular activities are available?')">Activities</button>
+                <button onclick="selectOption('is there on-campus housing available?')">Housing</button>
+                <button onclick="selectOption('can i transfer credits from another college?')">Credit</button><br><br>
+                <button onclick="selectOption('what support services are available for students?')">Support</button>
+                <button onclick="selectOption('help')">Help</button>
+            </div>
+        </div>
+        <div class="input-container">
+            <input type="text" id="user-input" placeholder="Type your message...">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+
+</div>
+    <script src="script.js"></script>
+</body>cv 
+</html>
